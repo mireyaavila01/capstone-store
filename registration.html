@@ -57,24 +57,18 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <form class="needs-validation" novalidate>
+                    <form>
                         <div class="mb-3">
-                            <label for="validationCustomUsername" class="form-label">Username</label>
-                            <div class="input-group">
-                                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                            <input type="text" class="form-control" id="validationCustomUsername" 
-                            aria-describedby="inputGroupPrepend" required>
-                            <div class="invalid-feedback">
-                                Please choose a username.
-                            </div>
-                            </div>
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username">
+                        
                         </div>
 
 
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" required>
+                                aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
 
@@ -90,10 +84,38 @@
                             <div id="passwordConfirmHelp" class="form-text">Please type the same password again!</div>
                         </div>
 
+                        <br>
+
+                        <div class="mb-3">
+                            <label>How did you hear about us?</label>
+                        </div>
+                        
+
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              friends/family
+                            </label>
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              social media
+                            </label>
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                              ads
+                            </label>
+                          </div>
+
+
+
 
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <label class="form-check-label" for="exampleCheck1">Accept Terms and Conditions</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
