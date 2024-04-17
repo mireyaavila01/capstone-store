@@ -6,3 +6,6 @@ li{
     list-style-position: inside;
 }
 
+.card-footer{
+    background: transparent;
+}
